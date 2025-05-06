@@ -44,6 +44,22 @@ introducir_datos.py
 - Una vez terminado, entrar en elastic y importar los dashboards desde el archivo "Dashboards.ndjson". Para hacerlo, en http://localhost:5601/, ir a Stack Management -> Saved Objects e importar los dashboards.
 - Para verlos, acceder a Analytics -> Dashboard y alli, elegir el que se desee ver.
 
+## Posibles vias de mejora
+- Inserción de datos constante: Para una simulación mas realista de este ejercicio, estaría bien tener un programa que añada datos de forma periódica simulando la recepción de datos constante en tiempo real. De esa forma, podríamos comprobar en un entorno mas realista el funcionamiento de nuestra solución
+- Importación automacica de dashboards (y indice y dataview) desde el docker compose.
+- Descarga automatica del venv con la descarga del requirements.txt en el docker compose
+
+## Problemas o retos encontrados
+- Seguridad. Problemas de unhealthyness al levantar contenedores al intentar añadir seguridad simple del tipo usuario/contraseña.
+- Importación de dashboards. Al no saber desde donde se hacía, hemos perdido varios dashboards.
+- Inserción automática de los dashboards.
+
+## Alternativas posibles
+Grafana. Es una plataforma de análisis y monitoreo para todo tipo de bases de datos (incluyendo Elasticsearch). 
+Su principal ventaja es que ofrece un amplio rango de plugins y una gran flexibilidad en la creación de dashboards. También es muy efectivo para el monitoreo en tiempo real.
+
+## Fuentes
+
 ## Integrantes del grupo
 - Eneko Fuente
 - Ekaitz Garcia
