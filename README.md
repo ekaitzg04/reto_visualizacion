@@ -59,6 +59,7 @@ Grafana. Es una plataforma de análisis y monitoreo para todo tipo de bases de d
 Su principal ventaja es que ofrece un amplio rango de plugins y una gran flexibilidad en la creación de dashboards. También es muy efectivo para el monitoreo en tiempo real.
 
 ## Fuentes
+https://www.youtube.com/watch?v=2gIyPvVZmeE&ab_channel=code215
 
 ## Integrantes del grupo
 - Eneko Fuente
