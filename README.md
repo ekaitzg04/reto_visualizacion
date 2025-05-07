@@ -50,7 +50,7 @@ introducir_datos.py
 - Descarga automatica del venv con la descarga del requirements.txt en el docker compose
 
 ## Problemas o retos encontrados
-- Seguridad. Problemas de unhealthyness al levantar contenedores al intentar añadir seguridad simple del tipo usuario/contraseña.
+- Seguridad. Problemas de unhealthiness al levantar contenedores al intentar añadir seguridad simple del tipo usuario/contraseña.
 - Importación de dashboards. Al no saber desde donde se hacía, hemos perdido varios dashboards.
 - Inserción automática de los dashboards.
 
