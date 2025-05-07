@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 - Una vez todo instalado, ejecutar el archivo "introducir_datos.py" de la siguiente manera:
 ```
-introducir_datos.py
+python3 introducir_datos.py
 ```
 - Una vez terminado, entrar en elastic y importar los dashboards desde el archivo "Dashboards.ndjson". Para hacerlo, en http://localhost:5601/, ir a Stack Management -> Saved Objects e importar los dashboards.
 - Para verlos, acceder a Analytics -> Dashboard y alli, elegir el que se desee ver.
@@ -60,6 +60,9 @@ Su principal ventaja es que ofrece un amplio rango de plugins y una gran flexibi
 
 ## Fuentes
 https://www.youtube.com/watch?v=2gIyPvVZmeE&ab_channel=code215
+
+## Enlace al video
+https://www.veed.io/view/162b8ca5-31b6-4e8d-8075-71a048a96de5?panel=share
 
 ## Integrantes del grupo
 - Eneko Fuente
